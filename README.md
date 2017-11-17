@@ -12,6 +12,7 @@ git clone https://github.com/Chippasaur/Supervised-Learning-Linear-Regression.gi
 cd Supervised-Learning-Linear-Regression
 pip install scipy numpy
 pip install .
+python linear_regression.py
 ```
 
 ### How to run within Docker
@@ -20,6 +21,7 @@ git clone https://github.com/Chippasaur/Supervised-Learning-Linear-Regression.gi
 cd Supervised-Learning-Linear-Regression
 docker build -t linear_regression
 docker run --rm -it linear_regression bash
+python linear_regression.py
 ```
 
 
